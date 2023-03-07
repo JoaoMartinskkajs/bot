@@ -3,7 +3,7 @@ import { Telegraf } from 'telegraf';
 import { io } from 'socket.io-client';
 import express from 'express';
 
-const socket = io("https://vizionserver.onrender.com");
+const socket = io("https://vizionserver-kwud.onrender.com");
 
 const app = express();
 
