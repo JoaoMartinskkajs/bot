@@ -60,12 +60,7 @@ try{
         };
     });
     
-    bot.launch({
-        webhook:{
-            domain: "https://bot-h19i.onrender.com",
-            port: 10001
-        }
-    });
+    bot.launch();
     console.log('Running');
 
     app.get('/', (req, res) => {
