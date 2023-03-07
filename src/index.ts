@@ -62,7 +62,7 @@ try{
     
     bot.launch({
         webhook:{
-            domain: "https://vizionserver.onrender.com",
+            domain: "https://bot-h19i.onrender.com",
             port: 10001
         }
     });
